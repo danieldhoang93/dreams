@@ -1,0 +1,20 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-dreams-dev-21431-authRole",
+      "UnauthRoleArn": "arn:aws:iam::648092687072:role/amplify-dreams-dev-21431-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::648092687072:role/amplify-dreams-dev-21431-authRole",
+      "Region": "us-east-1",
+      "DeploymentBucketName": "amplify-dreams-dev-21431-deployment",
+      "UnauthRoleName": "amplify-dreams-dev-21431-unauthRole",
+      "StackName": "amplify-dreams-dev-21431",
+      "StackId": "arn:aws:cloudformation:us-east-1:648092687072:stack/amplify-dreams-dev-21431/8b107750-ffbf-11ea-805a-0a3238f55eb3",
+      "AmplifyAppId": "d24zi703rj4ws5"
+    },
+    "categories": {
+      "auth": {
+        "dreams4bde3d51": {}
+      }
+    }
+  }
+}

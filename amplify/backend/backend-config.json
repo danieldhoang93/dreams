@@ -1,0 +1,10 @@
+{
+  "auth": {
+    "dreams4bde3d51": {
+      "service": "Cognito",
+      "providerPlugin": "awscloudformation",
+      "dependsOn": [],
+      "customAuth": false
+    }
+  }
+}
