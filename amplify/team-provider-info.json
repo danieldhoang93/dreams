@@ -13,7 +13,9 @@
     },
     "categories": {
       "auth": {
-        "dreams4bde3d51": {}
+        "dreams4bde3d51": {
+          "hostedUIProviderCreds": "[]"
+        }
       }
     }
   }

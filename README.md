@@ -1,22 +1,17 @@
 # Dreams (dreams)
 
-Anonymous dream posts
+Anonymous Dreams
+Share your wildest dreams anonymously
 
-## Install the dependencies
-```bash
-npm install
-```
+The site is developed with the following technologies:
+•Vue
+•Quasar
+•Node.js
+•Express
+•AWS Amplify
+•Amazon S3
+•Amazon Cognito
+•Amazon API Gateway
+•Amazon DynamoDb
+•Amazon Lambda Functions
 
-### Start the app in development mode (hot-code reloading, error reporting, etc.)
-```bash
-quasar dev
-```
-
-
-### Build the app for production
-```bash
-quasar build
-```
-
-### Customize the configuration
-See [Configuring quasar.conf.js](https://quasar.dev/quasar-cli/quasar-conf-js).

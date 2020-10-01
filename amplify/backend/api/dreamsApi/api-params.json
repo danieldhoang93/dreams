@@ -1,0 +1,45 @@
+{
+    "paths": [
+        {
+            "name": "/dreams",
+            "lambdaFunction": "dreams",
+            "privacy": {
+                "protected": true,
+                "auth": [
+                    "/POST",
+                    "/GET",
+                    "/PUT",
+                    "/PATCH",
+                    "/DELETE"
+                ],
+                "unauth": [
+                    "/GET"
+                ]
+            },
+            "policyResourceName": "/dreams"
+        }
+    ],
+    "resourceName": "dreamsApi",
+    "apiName": "dreamsApi",
+    "functionArns": [
+        {
+            "lambdaFunction": "dreams"
+        }
+    ],
+    "privacy": {
+        "auth": 1,
+        "unauth": 1,
+        "authRoleName": "amplify-dreams-dev-21431-authRole",
+        "unAuthRoleName": "amplify-dreams-dev-21431-unauthRole"
+    },
+    "dependsOn": [
+        {
+            "category": "function",
+            "resourceName": "dreams",
+            "attributes": [
+                "Name",
+                "Arn"
+            ]
+        }
+    ]
+}

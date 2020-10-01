@@ -1,6 +1,6 @@
 {
     "identityPoolName": "dreams4bde3d51_identitypool_4bde3d51",
-    "allowUnauthenticatedIdentities": false,
+    "allowUnauthenticatedIdentities": true,
     "resourceNameTruncated": "dreams4bde3d51",
     "userPoolName": "dreams4bde3d51_userpool_4bde3d51",
     "autoVerifiedAttributes": [
@@ -45,7 +45,7 @@
             "Arn"
         ]
     },
-    "useDefault": "default",
+    "useDefault": "defaultSocial",
     "usernameAttributes": [
         "email"
     ],
@@ -56,5 +56,10 @@
         "Ref": "AWS::StackId"
     },
     "permissions": [],
-    "dependsOn": []
+    "dependsOn": [],
+    "hostedUI": true,
+    "hostedUIDomainName": "dreams0e843b3d-0e843b3d",
+    "authProvidersUserPool": [],
+    "hostedUIProviderMeta": "[]",
+    "oAuthMetadata": "{\"AllowedOAuthFlows\":[\"code\"],\"AllowedOAuthScopes\":[\"phone\",\"email\",\"openid\",\"profile\",\"aws.cognito.signin.user.admin\"],\"CallbackURLs\":[\"http://localhost:8083/\",\"http://localhost:8080/\",\"http://localhost:8081/\",\"http://localhost:8082/\"],\"LogoutURLs\":[\"http://localhost:8080/\",\"http://localhost:8081/\",\"http://localhost:8082/\",\"http://localhost:8083/\"]}"
 }
