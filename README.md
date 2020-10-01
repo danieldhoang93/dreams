@@ -1,18 +1,21 @@
 # Dreams (dreams)
 
-Anonymous Dreams
+<div>Anonymous Dreams</div>
 http://dreams-20200926181243-hostingbucket-dev.s3-website-us-east-1.amazonaws.com/#/
-Share your wildest dreams anonymously
+<div>Share your wildest dreams anonymously</div>
 
-The site is developed with the following technologies:
-•Vue
-•Quasar
-•Node.js
-•Express
-•AWS Amplify
-•Amazon S3
-•Amazon Cognito
-•Amazon API Gateway
-•Amazon DynamoDb
-•Amazon Lambda Functions
+<div>The site is developed with the following technologies:</div>
+<ul>
+    <li>Vue</li>
+    <li>Quasar</li>
+    <li>Node.js</li>
+    <li>Express</li>
+    <li>AWS Amplify</li>
+    <li>Amazon S3</li>
+    <li>Amazon Cognito</li>
+    <li>Amazon API Gateway</li>
+    <li>Amazon DynamoDb</li>
+    <li>Amazon Lambda Functions</li>
+</ul>
+
 
